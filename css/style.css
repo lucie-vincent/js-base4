@@ -5,13 +5,13 @@
 }
 
 #container {
+    background-color: grey;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 10px;
     position: relative;
-    background-color: grey;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
     padding: 1.5em;
@@ -34,9 +34,9 @@
     font-size: 1.5em;
 }
 
-.nom-logo {
-    visibility: hidden;
-    /* display: none; */
+.brand-name {
+    /* visibility: hidden; */
+    display: none;
     font-size: 0.5em;
 }
 
@@ -52,6 +52,18 @@
     transition: 1s;
 }
 
+.logo-clicked {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+    border-radius: 15px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    transition: 1s;
+}
 
 
 .facebook {

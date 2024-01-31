@@ -1,16 +1,13 @@
-let facebook    = document.querySelector(".facebook");
-let twitter     = document.querySelector(".twitter");
-let insta       = document.querySelector(".insta");
+const container     = document.querySelector("#container");
+const logos         = document.querySelectorAll(".logo");
+const brandNames    = document.querySelectorAll(".brand-name");
 
 
-
-function animerLogo(social) {
-    let nomLogo = document.querySelectorAll(".nom-logo");
-    nomLogo.style.visibility = "visible";
+for (let logo of logos) {
+    logo/addEventListener("click", () => {
+        logo.classList.toggle("logo-clicked");
+        for (brandName of brandNames) {
+            brandName.style.display = "block";
+        }
+    })
 }
-
-
-
-facebook.addEventListener('click', function() {
-    animerLogo();
-});
