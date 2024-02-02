@@ -9,8 +9,8 @@ for (let logo of logos) {
         // pour le logo ciblé à ce moment dans l'itération
         // on alterne entre la classe logo et la classe logo-clicked
         logo.classList.toggle("logo-clicked");
-        // au backgroundColor du container, on attribut, pour le logo ciblé, la couleur mise en data-
-        // grace au dataset
+        // au backgroundColor du container, on attribut, pour le logo ciblé, la couleur attribuée au
+        // data-color, qu'on récupère grâce au dataset
         container.style.backgroundColor = logo.dataset.color // dataset : récupére le data- dans le html
     })
 }
