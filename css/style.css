@@ -64,16 +64,19 @@
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
     transition: 1s;
 }
+.logo-clicked .brand-name {
+    display: block;
+}
 
 
 .facebook {
-    background-color: darkblue;
+    background-color: rgb(35, 35, 194);
 }
 
 .twitter {
-    background-color: lightblue;
+    background-color: rgb(201, 231, 241);
 }
 
 .insta {
-    background-color: deeppink;
+    background-color: rgb(245, 84, 170);
 }
